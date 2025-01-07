@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "704964874988",
+    "project_id": "tap-in-22765",
+    "storage_bucket": "tap-in-22765.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704964874988:android:1136e8c9b158fc026e0bc9",
+        "android_client_info": {
+          "package_name": "com.example.tap_in"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5PCDen4keqiiRNkz5tG6QxzfJce0TI3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
