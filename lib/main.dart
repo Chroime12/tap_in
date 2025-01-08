@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:tap_in/app.dart';
 import 'package:tap_in/firebase_options.dart';
 import 'package:tap_in/themes/custom_theme.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -13,7 +14,11 @@ void main() async {
     );
   }
 
-  runApp(const MyApp());
+  runApp(
+    const ProviderScope(
+      child: MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
